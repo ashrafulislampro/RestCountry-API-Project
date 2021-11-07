@@ -1,0 +1,9 @@
+.country_component{
+          border: 2px solid gray;
+          width: 600px;
+          margin: auto;
+          border-radius: 5px;
+}
+.img{
+          width: 250px;
+}
