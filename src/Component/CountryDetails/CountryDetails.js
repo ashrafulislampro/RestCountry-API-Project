@@ -8,7 +8,7 @@ const CountryDetails = () => {
                     fetch(`https://restcountries.com/v2/name/${countryName}`)
                     .then(res => res.json())
                     .then(data => setCountry(data[0]));
-          },[]);
+          },[countryName]);
           const {flag, capital, population, region, nativeName, subregion, area} = country;     
           return (
                     <div style={{textAlign: 'center'}}>

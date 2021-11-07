@@ -1,8 +1,9 @@
 import { Link} from 'react-router-dom';
-import { useHistory } from 'react-router';
+import { useHistory} from 'react-router';
 import './Country.css';
 
 const Country = (props) => {
+          
           let history = useHistory();
           const ShowDetails = countryName =>{
                     history.push(`/country/${countryName}`);
